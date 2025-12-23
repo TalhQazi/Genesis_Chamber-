@@ -62,7 +62,7 @@ const OverviewSection = () => {
             >
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-lg bg-genesis-gold/10 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-genesis-gold">11</span>
+                  <span className="text-2xl font-bold text-genesis-gold">14+</span>
                 </div>
                 <div>
                   <p className="font-bold text-foreground">Subsystems</p>
