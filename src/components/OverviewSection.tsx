@@ -23,7 +23,7 @@ const OverviewSection = () => {
             <span className="block genesis-gradient-text">Biological Platform</span>
           </h2>
           <p className="genesis-subheading mx-auto">
-            Genesis Chamber™ is built as a platform of 14+ integrated biological modules that work
+            Genesis Chamber™ is built as a platform of 16+ integrated biological modules that work
             together across four structured phases, rather than a single one-off therapy room.
           </p>
         </motion.div>
@@ -62,7 +62,7 @@ const OverviewSection = () => {
             >
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-lg bg-genesis-gold/10 flex items-center justify-center">
-                  <span className="text-2xl font-bold text-genesis-gold">14+</span>
+                  <span className="text-2xl font-bold text-genesis-gold">16+</span>
                 </div>
                 <div>
                   <p className="font-bold text-foreground">Subsystems</p>
@@ -102,7 +102,7 @@ const OverviewSection = () => {
             <div className="space-y-4 mb-8">
               {[
                 'Phase-based architecture instead of single on/off sessions',
-                '14+ named modules including Salt Serenity™ and Forest Immersion™',
+                '16+ named modules including Salt Serenity™ and Forest Immersion™',
                 'Designed biometric and software layer for adaptive control',
                 'Fully EMF-shielded, controllable internal environment',
               ].map((feature, index) => (

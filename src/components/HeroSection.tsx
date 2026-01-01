@@ -66,7 +66,7 @@ const HeroSection = () => {
               className="genesis-subheading mx-auto lg:mx-0 mb-8"
             >
               Genesis Chamber™ is a phase-based, modular biological optimization system. More than a
-              single therapy, it coordinates 14+ integrated modules across structured phases to signal
+              single therapy, it coordinates 16+ integrated modules across structured phases to signal
               the nervous, immune and cellular systems in a planned way.
             </motion.p>
 
@@ -92,7 +92,7 @@ const HeroSection = () => {
               className="grid grid-cols-3 gap-6 mt-12"
             >
               {[
-                { icon: Zap, value: '14+', label: 'Biological Modules' },
+                { icon: Zap, value: '16+', label: 'Biological Modules' },
                 { icon: Shield, value: '4', label: 'Session Phases' },
                 { icon: Sparkles, value: '1', label: 'Integrated Platform' },
               ].map((stat, index) => (

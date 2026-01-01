@@ -5,6 +5,7 @@ import SessionPhasesSection from '@/components/SessionPhasesSection';
 import TechnologySection from '@/components/TechnologySection';
 import ModulesSection from '@/components/ModulesSection';
 import ImmuneOptimizationSection from '@/components/ImmuneOptimizationSection';
+import CellularResilienceSection from '@/components/CellularResilienceSection';
 import AdaptiveIntelligenceSection from '@/components/AdaptiveIntelligenceSection';
 import ComparisonSection from '@/components/ComparisonSection';
 import SpecificationsSection from '@/components/SpecificationsSection';
@@ -24,6 +25,7 @@ const Index = () => {
       <SessionPhasesSection />
       <ModulesSection />
       <ImmuneOptimizationSection />
+      <CellularResilienceSection />
       <AdaptiveIntelligenceSection />
       <TechnologySection />
       <ComparisonSection />

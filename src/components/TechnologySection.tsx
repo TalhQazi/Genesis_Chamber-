@@ -99,6 +99,12 @@ const subsystems = [
     description: 'Salt, forest, light and temperature modules scheduled together as one coordinated immune layer.',
     specs: ['Stacked timing windows', 'Multi-input immune focus', 'Repeatable protocol design'],
   },
+  {
+    icon: Wind,
+    title: 'Cellular Resilience Conditioning (IHHT)',
+    description: 'Intermittent hypoxia–hyperoxia cycles to train mitochondrial efficiency and adaptive resilience under controlled conditions.',
+    specs: ['Normobaric oxygen cycling', 'Closed-loop safety monitoring', 'Performance-focused conditioning'],
+  },
 ];
 
 const TechnologySection = () => {

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Waves, Trees, Droplets, Activity, Shield } from 'lucide-react';
+import { Waves, Trees, Droplets, Activity, Shield, Wind } from 'lucide-react';
 
 const modules = [
   {
@@ -62,6 +62,18 @@ const modules = [
       'Designed as a repeatable protocol rather than a one‑off experience',
     ],
   },
+  {
+    id: 'cellular-resilience',
+    icon: Wind,
+    title: 'Cellular Resilience Conditioning (IHHT)',
+    description:
+      'Intermittent hypoxia–hyperoxia conditioning trains how cells use oxygen, adapt to stress and support immune readiness.',
+    bullets: [
+      'Controlled low and high oxygen cycles without hyperbaric pressure',
+      'Supports mitochondrial efficiency and adaptive resilience',
+      'Positioned as biological conditioning, not medical treatment',
+    ],
+  },
 ];
 
 const ModulesSection = () => {
@@ -80,7 +92,7 @@ const ModulesSection = () => {
           <span className="text-genesis-gold font-medium mb-4 block">Named Biological Modules</span>
           <h2 className="genesis-heading mb-6">
             Beyond Single Therapy
-            <span className="block genesis-gradient-text">A 14+ Module Platform</span>
+            <span className="block genesis-gradient-text">A 16+ Module Platform</span>
           </h2>
           <p className="genesis-subheading mx-auto">
             Genesis Chamber™ is built as a modular biological system. If a module matters to the
